@@ -1,0 +1,45 @@
+:root {
+    --color-purple: #540d6e;
+    --color-pink: #ee4266;
+    --color-yellow: #ffd23f;
+    --color-turquoise : #3bceac;
+    --color-green: #0ead69;
+    --color-black: #1f1f1f;
+    --color-white: #f4f4f4;
+}
+
+body {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80vw;
+    height: 100vh;
+    align-content: center;
+    justify-self: center;
+    text-align: center;
+}
+
+button {
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px #ccccccb0;
+}
+
+button:hover {
+    background-color: #3e0a51;
+}
+
+div {
+    margin-top: 20px;
+}
+
+.fox-img {
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    padding: 10px;
+}
