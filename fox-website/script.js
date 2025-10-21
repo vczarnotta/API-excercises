@@ -20,7 +20,7 @@ imageBtn.addEventListener("click", () => {
         foxImage.classList.add("fox-img")
 
         //Sätt bakgrundsfärg
-        colorIndex = (colorIndex + 1) % colors.length
+        colorIndex = (colorIndex + 1) % colors.length //Byter färg efter varje bild, loopar
         foxImage.style.backgroundColor = colors[colorIndex]
     })
 });

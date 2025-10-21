@@ -1,3 +1,4 @@
+/*Färgpalett*/
 :root {
     --color-purple: #540d6e;
     --color-pink: #ee4266;
@@ -8,6 +9,7 @@
     --color-white: #f4f4f4;
 }
 
+/*Main*/
 body {
     background-color: var(--color-white);
     color: var(--color-black);
@@ -32,6 +34,7 @@ button:hover {
     background-color: #3e0a51;
 }
 
+/*API bilder*/
 div {
     margin-top: 20px;
 }
