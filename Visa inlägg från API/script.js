@@ -48,6 +48,7 @@ searchInput.addEventListener("input", () => {
     const filteredPosts = posts.filter(post => post.title.toLowerCase().includes(query)) //Kontrollera att sökningen matchar titeln och skapa en ny lista med matchningar.
 
     postContainer.innerHTML = "" //Rensa tidigare inlägg
+    
         if(filteredPosts.length === 0) {
             postContainer.textContent = "Inga inlägg hittades."
         } else {
